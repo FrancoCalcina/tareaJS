@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./t.css">
+</head>
+
+<body class="body">
+    <main class="main">
+        <h3>
+            Nª2356891478
+        </h3>
+        <hr>
+        <section class="parte1" id="parte__1">
+            <div>
+                <div id="caja-1">
+                    <label for="inputNombre">Nombre</label>
+                    <input type="text" id="inputNombre">
+                </div>
+                <div id="caja-2">
+                    <label for="inputFecha">Fecha</label>
+                    <input type="text" id="inputFecha">
+                </div>
+                <div class="fix"></div>
+            </div>
+            <div>
+                <div id="caja-3">
+                    <label for="inputRuc">RUC</label>
+                    <input type="text" id="inputRuc">
+                </div>
+                <div id="caja-4">
+                    <label for="inputnmro">Nro</label>
+                    <input type="text" id="inputnmro">
+                </div>
+                <div class="fix"></div>
+            </div>
+
+        </section>
+
+        <section class="listaArticulos" id="lista__articulos">
+            <div class="parte2" id="parte__2">
+                <div class="div1" id="div__1">
+                    <label>Cantidad</label>
+                    <input type="text" class="input1" id="input__1" />
+                </div>
+                <div class="div2" id="div__2">
+                    <label>Descripcion</label>
+                    <input type="text" class="input2" id="input__2" />
+                </div>
+                <div class="div3" id="div__3">
+                    <label>P. Unitario</label>
+
+                    <input type="text"  placeholder=".S/" class="input3" id="input__3" />
+
+                </div>
+                <div class="div4" id="div__4">
+                    <label>P. Total</label>
+                    <input type="text"  placeholder="Inf.inTable" class="input4" id="input__4" />
+                </div>
+            </div>
+            <div class="botonsito">
+                <button type="submit" class="monito" id="carpetita">
+        
+                </button>
+            </div>
+
+        </section  class="parteTabla">
+
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Cantidad</th>
+                    <th>Descripcion</th>
+                    <th>PrecioUnitario</th>
+                    <th>PrecioTotal</th>
+                </tr>
+            </thead>
+            <tbody id="dinamico">
+
+            </tbody>
+        </table>
+        </section>
+
+        <button class="botonFixed" id="guardar__todo">
+           Guardar Todo
+        </button>
+        <div class="sumaTotal"  id="suma__total">
+        </div>
+    </main>
+
+
+
+    <script src="./t.js"></script>
+</body>
+
+</html>

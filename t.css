@@ -1,0 +1,134 @@
+  * {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Geo', sans-serif;
+    font-size: 20px;
+  }
+
+  .body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #DCDCDC;
+  }
+
+  .main {
+    margin-top: 5px;
+    flex: 1;
+    max-width: 720px;
+    background-color: rgb(241, 169, 13);
+    box-shadow: #D67D42 0px 0px 5px;
+    padding: 30px;
+    min-height: calc(100vh - 10px);
+  }
+  .parte1 {
+    height: 100px;
+    width: 640px;
+    align-content: center;
+    padding-top: 30px;
+    
+  }
+  #caja-1 {
+    width: 50%;
+    height: 50px;
+    float: left;
+   
+  }
+  #caja-2 {
+    width: 50%;
+    height: 50px;
+    float: left;
+   
+  }
+  #caja-3 {
+    width: 50%;
+    height: 50px;
+    float: left;
+  }
+
+  #caja-4 {
+    width: 50%;
+    height: 50px;
+    float: left;
+  }
+  .fix {
+    clear: both;
+  }
+  .listaArticulos{
+    display: flex;
+    height: 150px;
+    
+    float: left;
+    align-items: center;
+  }
+  .parte2{
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  .botonsito{
+    flex: 1;
+    
+  }
+  .monito{
+    background-image: url('./interfaz.svg');
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(231, 219, 40);
+  }
+
+
+  .div1{ 
+  
+   max-width: 20%;
+   padding: 4px;
+  }
+  .div2{
+    
+    max-width: 40%;
+    padding: 4px;
+  }
+  .div3{
+    
+    max-width: 20%;
+    padding: 4px;
+  }
+  .div4{
+    max-width: 20%;
+    padding: 4px;
+
+  }
+  .input1,.input2,.input3,.input4{
+    width: 100%;
+  }
+
+  table {
+    width: 100%;  
+  }
+/* th, td {
+    border: 1px solid blue;
+    width: 20%;
+    word-wrap: break-word;
+} */
+
+.botonFixed{
+  width: 200px;
+  height: 30px;
+  background-color: rgb(247, 137, 34);
+  position: fixed;
+  bottom: 3%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+.sumaTotal{
+  width: 100px;
+  height: 30px;
+  background-color: rgb(247, 137, 34);
+  position: fixed;
+  bottom: 3%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
